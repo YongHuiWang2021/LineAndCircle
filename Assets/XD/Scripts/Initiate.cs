@@ -2,9 +2,9 @@
 using System.Collections;
 
 public static class Initiate {
-	public static void Fade (string scene,Color col,float damp){
+	public static void Begin (string scene,Color col,float damp){
 		GameObject init = new GameObject ();
-		init.name = "Fader";
+		init.name = "Begin";
 		init.AddComponent<Fader> ();
 		Fader scr = init.GetComponent<Fader> ();
 		scr.fadeDamp = damp;

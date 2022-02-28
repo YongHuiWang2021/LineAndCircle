@@ -23,7 +23,7 @@ public class MenuController : MonoBehaviour {
 
     //Restart the Game
     public void Replay() {
-        Initiate.Fade(Application.loadedLevelName, SystemParam.Instance.GameColor, SystemParam.Instance.Damp);
+        Initiate.Begin(Application.loadedLevelName, SystemParam.Instance.GameColor, SystemParam.Instance.Damp);
     }
 
     public void ChangeSound() {
