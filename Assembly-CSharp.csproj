@@ -652,6 +652,9 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/mac/Desktop/Project/LineAndCircle/LineAndCircle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/Users/mac/Desktop/Project/LineAndCircle/LineAndCircle/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
